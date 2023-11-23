@@ -150,6 +150,12 @@ python run.py --datasets ceval_ppl mmlu_ppl \
       <td>
         <b>考试</b>
       </td>
+      <td>
+        <b>理解</b>
+      </td>
+      <td>
+        <b>安全</b>
+      </td>
     </tr>
     <tr valign="top">
       <td>
@@ -291,26 +297,6 @@ python run.py --datasets ceval_ppl mmlu_ppl \
 
 </details>
       </td>
-    </tr>
-</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr align="center" valign="bottom">
-      <td>
-        <b>理解</b>
-      </td>
-      <td>
-        <b>长文本</b>
-      </td>
-      <td>
-        <b>安全</b>
-      </td>
-      <td>
-        <b>代码</b>
-      </td>
-    </tr>
-    <tr valign="top">
       <td>
 <details open>
 <summary><b>阅读理解</b></summary>
@@ -344,8 +330,7 @@ python run.py --datasets ceval_ppl mmlu_ppl \
 - TNEWS
 
 </details>
-      </td>
-      <td>
+
 <details open>
 <summary><b>长文本理解</b></summary>
 
@@ -372,18 +357,6 @@ python run.py --datasets ceval_ppl mmlu_ppl \
 <summary><b>健壮性</b></summary>
 
 - AdvGLUE
-
-</details>
-      </td>
-      <td>
-<details open>
-<summary><b>代码</b></summary>
-
-- HumanEval
-- HumanEvalX
-- MBPP
-- APPs
-- DS1000
 
 </details>
       </td>
